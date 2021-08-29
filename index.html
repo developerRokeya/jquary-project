@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--  meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <title>js/jq</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <!-- navbar start -->
+        <nav class="navbar navbar-expand-lg navbar-light c_nav">
+          <div class="container-fluid">
+            <!-- logo -->
+            <a class="navbar-brand nav_b" href="index.html"
+              ><h1 class="logo mb-0">JQUARY</h1></a
+            >
+            <button
+              class="navbar-toggler nav_t"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#nav_menu"
+              aria-controls="nav_menu"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon nav_t_i"
+                ><i class="fas fa-align-justify"></i
+              ></span>
+            </button>
+            <!-- menu -->
+            <div class="collapse navbar-collapse menu" id="nav_menu">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item text-uppercase">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="#index.html"
+                    >HOME</a
+                  >
+                </li>
+                <li class="nav-item text-uppercase">
+                  <a class="nav-link" href="#Interaction.html">Interaction</a>
+                </li>
+                <li class="nav-item text-uppercase">
+                  <a class="nav-link" href="#Widgets.html">Widgets</a>
+                </li>
+                <li class="nav-item text-uppercase">
+                  <a class="nav-link" href="#Effects.html">Effects</a>
+                </li>
+                <li class="nav-item text-uppercase">
+                  <a class="nav-link" href="#Utilities.html">Utilities</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <!-- navbar end -->
+      </div>
+    </header>
+
+    <section class="show/hide m-3 pb-3">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <h1>click the button to hide the text</h1>
+            <button type="button" id="btn1" class="btn btn-info">HIDE</button>
+            <h2>Lorem ipsum dolor sit amet.</h2>
+          </div>
+          <div class="col-lg-6">
+            <h1>click the button to show the text</h1>
+            <button type="button" id="btn2" class="btn btn-info">SHOW</button>
+            <h3>Lorem ipsum dolor sit amet.</h3>
+          </div>
+        </div>
+        <hr />
+        <div class="row">
+          <div class="col-lg-12">
+            <h1>click the button toggle the text</h1>
+            <button type="button" id="btn3" class="btn btn-info">TOGGLE</button>
+            <button type="button" id="btn4" class="btn btn-info">FAST</button>
+            <button type="button" id="btn5" class="btn btn-info">SLOW</button>
+
+            <h3 class="h3">Lorem ipsum dolor sit amet.</h3>
+          </div>
+        </div>
+        <hr />
+        <div class="row">
+          <div class="col-lg-12">
+            <h1>click the button to fade in/out the text</h1>
+            <button type="button" id="btn6" class="btn btn-info">
+              FadeOut
+            </button>
+            <button type="button" id="btn7" class="btn btn-info">FadeIn</button>
+            <button type="button" id="btn8" class="btn btn-info">
+              FadeToggle
+            </button>
+            <button type="button" id="btn9" class="btn btn-info">Fadeto</button>
+            <h3 class="h4">Lorem ipsum dolor sit amet.</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="panel-flip">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="panel">
+              <h1>how are you?</h1>
+            </div>
+            <div class="flip">
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum
+                aliquam odit quae earum cupiditate aperiam ab, totam beatae in
+                perspiciatis molestiae dolore voluptatibus eveniet obcaecati
+                debitis hic sit inventore? Libero sequi eum optio nulla saepe
+                soluta aut dignissimos quas ut nihil accusamus alias commodi
+                eligendi laboriosam, tempore quae. Distinctio, aliquam.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- JS links-->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
